@@ -1,10 +1,5 @@
 This Convolutional Neural Network is trained on images of a bearded dragon and various cats. An example of each is shown below.
 
-.crop {
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
-}
  .crop img {
   width: 400px;
   height: 300px;
