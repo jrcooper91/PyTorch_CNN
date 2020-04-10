@@ -8,13 +8,13 @@ def video_to_frames(input_loc, output_loc):
         os.mkdir(output_loc)
     except OSError:
         pass
-    # Log the time
+    # Log the start time
     time_start = time.time()
     # Start capturing the feed
     cap = cv2.VideoCapture(input_loc)
     # Find the number of frames
-    video_length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) - 1
-    print ("Number of frames: ", video_length)
+    video_length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) - 1 #this is required or else it will find an empty frame
+    print ("Number of frames: ", video_length) #divide this by the fps to get video length. Model 3 sentry mode with HW 3.0 hardware records at 36 fps = 1 minute clip.
     count = 0
     print ("Converting video..\n")
     # Start converting the video
@@ -36,7 +36,6 @@ def video_to_frames(input_loc, output_loc):
             break
 
 if __name__=="__main__":
-
-    input_loc = '/path/to/video/00009.MTS'
-    output_loc = '/path/to/output/frames/'
+    input_loc = '/Users/jennifercooper/Projects/Tesla/Driving/2020-04-01_12-59-14-front.mp4'
+    output_loc = '/Users/jennifercooper/Projects/Tesla/PyTorchTraining/Potholes/data'
     video_to_frames(input_loc, output_loc)
