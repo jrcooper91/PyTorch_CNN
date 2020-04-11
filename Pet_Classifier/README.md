@@ -48,4 +48,4 @@ jupyter notebook
 ## Prediction
 * This neural net is 85% accurate on the test set. 
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](test1.png)
