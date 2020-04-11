@@ -1,6 +1,6 @@
  # Image Classification with PyTorch
 
-Project code for Image Classification with PyTorch done on my pets (Apollo the bearded dragon, Gil the leopard gecko, various cats, and Octavius the chameleon.
+Project code for Image Classification with PyTorch done on my pets (Apollo the bearded dragon, Gil the leopard gecko, various cats, and Octavius the chameleon. Results are at the bottom.
 
 
 ## Prerequisites
@@ -47,3 +47,5 @@ jupyter notebook
 
 ## Prediction
 * This neural net is 85% accurate on the test set. 
+
+![GitHub Logo](/images/logo.png)
