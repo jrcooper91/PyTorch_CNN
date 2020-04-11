@@ -48,10 +48,9 @@ jupyter notebook
 ## Prediction
 * This neural net is 85% accurate on the test set. 
 
-<img src="test1.png" width="400" height="300" /><img src="test2.png" width="400" height="300" />
+<img src="test1.png" width="370" height="300" /><img src="test2.png" width="370" height="300" />
 
-<img src="test2.png" width="400" height="300" />
-<img src="test3.png" width="400" height="300" />
-<img src="test4.png" width="400" height="300" />
+<img src="test3.png" width="370" height="300" /><img src="test4.png" width="370" height="300" />
+
 
 
