@@ -31,8 +31,10 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 
 ### Project assets:
 
-- `tesla_dashcam.data` 
+- `Pothole_finder_OD.ipynb` is the notebook containing relevant code. 
+- `tesla_dashcam.data` is a config file.
 - `tesla_dashcam.names` which are the 3 classes of objects (stoplight, car, potholes) that I am detecting in images.
+- `extract_video.py` takes TeslaCam footage and extracts out the frames in .jpg.
 
 
 Directory should contain **test**, **train** and **valid** subdirectories containing classification directories and animal images under the main directory.
