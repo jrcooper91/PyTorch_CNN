@@ -2,7 +2,7 @@
 
 This repository contains various projects using PyTorch. 
 
-**Pet_Classifier** is an Image Classifier on 4 types of animals that is trainined on personal images from an iPhone. This project is complete and the test set is 85% accurate on the test set. 
+**Pet_Classifier** is an Image Classifier on 4 types of animals that is trainined on personal images from an iPhone. This project is complete and the test set is 85% accurate. 
 
 **Pothole_Finder** is a custom Object Detection trained on TeslaCam driving footage for detection of stoplights, cars, and potholes. This project is in progress.
 
