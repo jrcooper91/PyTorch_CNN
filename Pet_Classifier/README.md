@@ -46,7 +46,7 @@ jupyter notebook
 
 
 ## Prediction
-* This neural net is 94% accurate on the test set. 
+* This neural net is 96% accurate on the test set. 
 
 <img src="test1.png" width="370" height="300" /><img src="test2.png" width="370" height="300" />
 
