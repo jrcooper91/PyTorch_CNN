@@ -6,4 +6,4 @@ This repository contains various projects using PyTorch.
 
 **Pothole_Finder** is a custom Object Detection trained on TeslaCam driving footage for detection of stoplights, cars, and potholes. This project is in progress.
 
-**grism_bad_classifier** is an Image Classifer that will identify unusuble grism data. This is trained on *Hubble Space Telescope* data from the 3D-HST survey. This project is in progress and is a portion of my dissertation work at the University of Kansas. 
+**grism_classifier** is an Image Classifer that will identify unusuble grism data and classify morphology of complete emission line extractions. This is trained on *Hubble Space Telescope* data from the 3D-HST survey. This project is in progress and is a portion of my dissertation work at the University of Kansas. 
