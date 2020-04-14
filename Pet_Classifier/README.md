@@ -31,7 +31,7 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 
 ### Project assets:
 
-- `Image Classifier Project.ipynb` Jupyter Notebook
+- `ImageClassifier-Pets.ipynb` Jupyter Notebook
 - `cat_to_name_pet_classifier.json` which are the classes of animals and their respective directories.
 
 
