@@ -1,8 +1,8 @@
  # Image Classification with PyTorch on HST/WFC3 grism emission line extractions
 
 Project code for Image Classification with PyTorch done with HST/WFC3 grism emission line extractions to automatically classify 2D
-images as stellar, edge of chip, neighbor contaminated, compact, edge-on, diffuse, and unusual. The first 3 classes will prove 
-most useful in removing unusable data from a pointing. 
+images as stellar, edge of chip, neighbor contaminated, compact, diffuse, and noisy. The first 3 classes will prove 
+most useful in removing unusable data from a pointing. Data quality limits a more fine morphology with a 2-orbit depth at z = 0.5
 
 
 
