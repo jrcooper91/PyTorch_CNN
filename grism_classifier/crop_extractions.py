@@ -1,6 +1,5 @@
 # Improting Image class from PIL module 
 from PIL import Image
-import cv2
 import os
 
 
@@ -13,7 +12,7 @@ directory = "/Users/jennifercooper/Projects/thesis/23.3_mag/all/Extractions/imag
 #print(im.size)
 count = 0
 # Setting the points for cropped image
-#stellar map lin box paramters
+#stellar map line box paramters
 left0 = 1
 top0 = 1
 right0 = 301
@@ -33,6 +32,7 @@ left3 = 907
 top3 = 1
 right3 = 1207
 bottom3 = 310
+
 #where to save the files
 output_dir_em = "/Users/jennifercooper/Projects/thesis/23.3_mag/all/Extractions/images/single/" #emission line map extractions
 output_dir_st = "/Users/jennifercooper/Projects/thesis/23.3_mag/all/Extractions/images/stellar/" #emission line map stellar
