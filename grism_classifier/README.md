@@ -34,7 +34,7 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 
 ### Project assets:
 
-- `Image Classifier Project.ipynb` Jupyter Notebook
+- `Grism_Classifier.ipynb` Jupyter Notebook
 - `grism_classifier.json` which are the classes of animals and their respective directories.
 
 
