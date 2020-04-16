@@ -1,8 +1,8 @@
  # Image Classification with PyTorch on HST/WFC3 grism emission line extractions
 
 Project code for Image Classification with PyTorch done with HST/WFC3 grism emission line extractions to automatically classify 2D
-images as stellar, edge of chip, neighbor contaminated, compact, diffuse, and noisy. The first 3 classes will prove 
-most useful in removing unusable data from a pointing. Data quality limits a more fine morphology with a 2-orbit depth at z = 0.5
+images as stellar/artifact/poor modeling, edge of chip, compact, diffuse, and noisy. The first 2 classes will prove 
+most useful in removing unusable data from a pointing. Data quality limits a more fine morphology with a 2-orbit depth at z = 0.5. 
 
 
 
@@ -49,7 +49,7 @@ jupyter notebook
 
 
 ## Prediction
-* This neural net is [TBA] accurate on the test set. 
+* This neural net is 66% accurate on the test set and is in progress. 
 
 <img src="test1.png" width="370" height="300" /><img src="test2.png" width="370" height="300" />
 
