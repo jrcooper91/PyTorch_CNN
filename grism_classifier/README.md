@@ -49,11 +49,17 @@ jupyter notebook
 
 
 ## Prediction
-* This neural net is 66% accurate on the test set and is in progress. 
+* This neural net is 68% accurate on the test set and is in progress. 
 
 <img src="test1.png" width="370" height="300" /><img src="test2.png" width="370" height="300" />
 
 <img src="test3.png" width="370" height="300" /><img src="test4.png" width="370" height="300" />
 
+## To Do: 
+
+- [ ] Train on 3D-HST
+- [ ] Train on H\alpha extractions only
+- [ ] Are G102 and G141 grism data interchangeable ?
+- [ ] Train with Sersic Index
 
 
