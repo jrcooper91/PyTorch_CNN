@@ -58,8 +58,9 @@ jupyter notebook
 ## To Do: 
 
 - [ ] Train on 3D-HST
-- [ ] Train on H\alpha extractions only
+- [ ] Train on Halpha extractions only
 - [ ] Are G102 and G141 grism data interchangeable ?
 - [ ] Train with Sersic Index
+
 
 
