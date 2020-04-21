@@ -49,7 +49,7 @@ jupyter notebook
 
 
 ## Prediction
-* This neural net is 68% accurate on the test set and is in progress. 
+* This neural net is 69% accurate on the test set and is in progress. 
 
 <img src="noisy.png" width="310" height="300" /><img src="diffuse.png" width="370" height="300" />
 
