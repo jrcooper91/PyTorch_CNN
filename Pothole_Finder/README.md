@@ -51,5 +51,8 @@ jupyter notebook
 ## Prediction
 * This project is in progress. 
 
+## To Do: 
 
+- [ ] Complete Notebook for Object Detection 
+- [ ] Complete with Tracking using full video files  
 
