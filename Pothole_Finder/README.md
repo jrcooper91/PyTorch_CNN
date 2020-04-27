@@ -38,7 +38,7 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 - `bbox.py` is a Python GUI to define objects and write their coordinates to a file. 
 
 
-Directory should contain **test**, **train** and **valid** subdirectories containing classification directories and animal images under the main directory.
+Directory should contain directories **images** and **labels**, which are .JPG files of the images and a single text file per image stating the class, x/y coordinates and width/height of object in that specific image. bbox.py automatically creates these files. Train.txt and val.txt point to which images are to be used for training and validation.
 
 ## Viewing the Jupyter Notebook
 
@@ -54,6 +54,6 @@ jupyter notebook
 ## To Do: 
 
 - [x] Train on 3 custom classes 
-- [ ] Complete Notebook for Object Detection 
+- [ ] Complete Notebook for Object Detection with examples displayed
 - [ ] Complete with Tracking using full video files  
 
