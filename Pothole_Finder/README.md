@@ -53,6 +53,7 @@ jupyter notebook
 
 ## To Do: 
 
+- [x] Train on 3 custom classes 
 - [ ] Complete Notebook for Object Detection 
 - [ ] Complete with Tracking using full video files  
 
