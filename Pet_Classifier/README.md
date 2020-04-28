@@ -27,7 +27,7 @@ or [conda](https://anaconda.org/anaconda/python)
 ```
 conda install numpy pandas matplotlib pil
 ```
-In order to install PyTorch head over to the PyTorch site select your specs and follow the instructions given.	
+In order to install PyTorch head over to the [PyTorch site](https://pytorch.org) select your setup and follow the instructions given.	This notebook utilizes version 1.5.
 
 ### Project assets:
 
