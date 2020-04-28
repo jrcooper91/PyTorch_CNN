@@ -39,7 +39,7 @@ In order to install PyTorch head over to the [PyTorch site](https://pytorch.org)
 - `tesla_dashcam.names` which are the 3 classes of objects (stoplight, car, potholes) that I am detecting in images.
 - `extract_video.py` takes TeslaCam footage and extracts out the frames in .jpg.
 - `bbox.py` is a Python GUI to define objects and write their coordinates to a file. 
-- `train.py` trains the custom image dataset to create the weight file. 
+- `models.py` is a helper script that trains the custom image dataset to create the weight file. 
 
 
 Directory should contain directories **images** and **labels**, which are .JPG files of the images and a single text file per image stating the class, x/y coordinates and width/height of object in that specific image. bbox.py automatically creates these files. Train.txt and val.txt point to which images are to be used for training and validation.
