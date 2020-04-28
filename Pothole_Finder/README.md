@@ -7,7 +7,7 @@ This projct works through 3 classifications of common objects on the road: stopl
 <img src="2020-04-01_12-59-14_00052-det.jpg" width="370" height="305" /> <img src="2020-04-01_12-59-14_00052.jpg" width="370" height="300" />
 
 ## Prerequisites
-The Code is written in Python 3.6.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
+The Code is written in Python 3.7.3. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
 
 To install pip run in the command Line
 ```
@@ -30,7 +30,7 @@ or [conda](https://anaconda.org/anaconda/python)
 ```
 conda install numpy pandas matplotlib pil
 ```
-In order to install PyTorch head over to the PyTorch site select your specs and follow the instructions given.	
+In order to install PyTorch head over to the [PyTorch site](https://pytorch.org) select your setup and follow the instructions given.	This notebook utilizes version 1.5.
 
 ### Project assets:
 
@@ -39,6 +39,7 @@ In order to install PyTorch head over to the PyTorch site select your specs and 
 - `tesla_dashcam.names` which are the 3 classes of objects (stoplight, car, potholes) that I am detecting in images.
 - `extract_video.py` takes TeslaCam footage and extracts out the frames in .jpg.
 - `bbox.py` is a Python GUI to define objects and write their coordinates to a file. 
+- `train.py` trains the custom image dataset to create the weight file. 
 
 
 Directory should contain directories **images** and **labels**, which are .JPG files of the images and a single text file per image stating the class, x/y coordinates and width/height of object in that specific image. bbox.py automatically creates these files. Train.txt and val.txt point to which images are to be used for training and validation.
