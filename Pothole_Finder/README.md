@@ -2,7 +2,7 @@
 
 Project code for Object Detection with PyTorch done with footage from TeslaCam.
 
-This projct works through 3 classifications of common objects on the road: stoplights, cars, and potholes. The Tesla 2020.12* software already includes cars, cones, stoplights/signs, humans, bikes, and road markings, but not potholes. A final product (in progress) can be seen below. 
+This project works through 3 classifications of common objects on the road: stoplights, cars, and potholes. The Tesla 2020.12* software already includes cars, cones, stoplights/signs, humans, bikes, and road markings, but not potholes. A final product (in progress) can be seen below. 
 
 <img src="2020-04-01_12-59-14_00052-det.jpg" width="370" height="305" /> <img src="2020-04-01_12-59-14_00052.jpg" width="370" height="300" />
 
