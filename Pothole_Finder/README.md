@@ -49,11 +49,11 @@ jupyter notebook
 
 
 ## Prediction
-* This project is in progress. 
+* This project is in progress. My first iteration was successful (to some extent) but I need to redo some of the object classifications with bbox.py. Right now, it is overdetecting because my bounding boxes are too large. 
 
 ## To Do: 
 
 - [x] Train on 3 custom classes 
-- [ ] Complete Notebook for Object Detection with examples displayed
+- [x] Complete Notebook for Object Detection with examples displayed
 - [ ] Complete with Tracking using full video files  
 
