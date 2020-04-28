@@ -4,7 +4,7 @@ Project code for Image Classification with PyTorch done on my pets (Apollo the b
 
 
 ## Prerequisites
-The Code is written in Python 3.6.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
+The Code is written in Python 3.7.3. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
 
 To install pip run in the command Line
 ```
