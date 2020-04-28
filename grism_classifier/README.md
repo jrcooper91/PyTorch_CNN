@@ -7,7 +7,7 @@ most useful in removing unusable data from a pointing. Data quality limits a mor
 
 
 ## Prerequisites
-The Code is written in Python 3.6.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
+The Code is written in Python 3.7.3 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
 
 To install pip run in the command Line
 ```
@@ -30,7 +30,7 @@ or [conda](https://anaconda.org/anaconda/python)
 ```
 conda install numpy pandas matplotlib pil
 ```
-In order to install PyTorch head over to the PyTorch site select your specs and follow the instructions given.	
+In order to install PyTorch head over to the [PyTorch site](https://pytorch.org) select your setup and follow the instructions given.	This notebook utilizes version 1.5.
 
 ### Project assets:
 
