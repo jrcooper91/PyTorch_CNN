@@ -1,3 +1,5 @@
+#Script written by Jennifer Cooper to train a set of dashcam data to detect potholes, stoplights, and cars. Python 3.73. On redbud, Redhat Enterprise Linux 6 with 4 cores.
+
 from __future__ import division
 
 from models import *
@@ -50,7 +52,7 @@ learning_rate = 0.001 #rate of change in loss gradient
 momentum = 0.9        #accumulation of past gradients to determine best direction to continue
 decay = 0.0005        
 burn_in = 1000
-n_cpu=8         #threads to use
+n_cpu=8         #threads to use, each core has 2 threads
 
 # Initiate model
 model = Darknet(model_config_path)
